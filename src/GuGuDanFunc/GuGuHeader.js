@@ -5,7 +5,7 @@ class GuGuHeader extends Component {
         return (
             <div>
                 <h1>구구단 게임</h1>
-                <h3>{this.props.first} x {this.props.second}</h3>
+                <h3>{this.props.first} x {this.props.second} = ?</h3>
             </div>
         );
     }

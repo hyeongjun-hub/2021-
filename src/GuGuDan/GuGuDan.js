@@ -8,13 +8,26 @@ class GuGuDan extends Component {
         first: Math.floor(Math.random()*9 + 1),
         second: Math.floor(Math.random()*9 + 1),
         value: '',
-        result: '결과 나올 곳',
+        result: '정답나올 곳',
     };
+    onInsert = (_value) => {
+        if(parseInt(_value) === this.state.first * this.state.second){
+            this.setState({ 
+                first: Math.floor(Math.random()*9 + 1),
+            second: Math.floor(Math.random()*9 + 1),
+            value: '',
+            result: _value+' 값은 정답!',
+            })
+        }
+        else{
+            this.setState({ value: '', result: _value+ ' 값은 땡!',})
+        }
+    }
     render() {
         return (
             <div>
                 <GuGuHeader first={this.state.first} second={this.state.second}/>
-                <GuGuInput />
+                <GuGuInput onInsert = {this.onInsert}/>
                 <GuGuResult result={this.state.result}/>
             </div>
         );
