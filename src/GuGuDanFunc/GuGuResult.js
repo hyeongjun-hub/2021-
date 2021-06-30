@@ -1,13 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
+import GuGuResultList from './GuGuResultList';
 
-class GuGuResult extends Component {
-    render() {
-        return (
-            <div >
-                {this.props.result}
-            </div>
-        );
-    }
-}
+const GuGuResult = ({result, datas}) => {
+    return (
+        <div>
+            {result}
+            {datas.map((data)=>(
+                <GuGuResultList data={data} key={data.index}>
+
+                </GuGuResultList>
+            ))}
+        </div>
+    );
+};
 
 export default GuGuResult;
+
