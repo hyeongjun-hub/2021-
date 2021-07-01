@@ -1,0 +1,35 @@
+.orderTitle {
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid white;
+  margin-bottom: 2rem;
+}
+
+.orderMain {
+  padding: 1rem;
+}
+
+.orderList {
+  background: white;
+  padding: 10px;
+  display: flex;
+  width: 400px;
+  height: 150px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.orderList img {
+  margin-right: 2rem;
+  border-radius: 10px;
+}
+
+.orderList__content {
+  font-size: 15px;
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}

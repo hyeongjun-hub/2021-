@@ -6,10 +6,13 @@ import Top from './Project/src/TopShop';
 import Bottom from './Project/src/BottomShop';
 import Home from './Project/components/Home';
 import Buy from './Project/components/ShoppingCart';
+import Many from './Project/components/Many';
 import Navigation from './Project/components/Navigation';
 import Detail from './Project/components/Detail';
 import './Project/CSS/Card.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import './Project/CSS/Basket.css';
+import './Project/CSS/Order.css';
 
 const App = () => {
   return (
@@ -21,6 +24,7 @@ const App = () => {
         <Route path="/top" exact={true} component={Top} />
         <Route path="/bottom" exact={true} component={Bottom} />
         <Route path="/buy" exact={true} component={Buy} />
+        <Route path="/buymany" exact={true} component={Many} />
         <Route path="/clothes/:id" exact={true} component={Detail} />
       </HashRouter>
     </>

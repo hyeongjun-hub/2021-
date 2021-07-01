@@ -17,7 +17,7 @@ const Home = (props) => {
             />
             <img
               alt=""
-              src="https://blog.kakaocdn.net/dn/ct0dvx/btqwTw8HoGH/fHhtHeYYmUWzk66Hp77JxK/img.jpg"
+              src="https://1757140519.rsc.cdn77.org/it/blog/wp-content/uploads/sites/13/2020/03/Adidas-Logo-old-1-1024x576-min-1024x576.jpg"
             />
             <img
               alt=""

@@ -11,15 +11,15 @@ class Detail extends Component {
     const { location } = this.props;
     if (location.state) {
       return (
-        <>
-          <span>hello</span>
-
-          <span>this is {location.state.title}</span>
-          <img alt="" src={location.state.img} width="100%" />
+        <div className="container">
+          <h2>
+            <b>{location.state.title}</b>
+          </h2>
+          <img alt="" src={location.state.img} width="80%" />
 
           <span>{location.state.content}</span>
           <span>price : ${location.state.price}</span>
-        </>
+        </div>
       );
     } else return null;
   }

@@ -1,0 +1,38 @@
+.basketContainer {
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #2f5d62;
+  height: 100rem;
+  width: 30vw;
+}
+
+.basketContainer h4 {
+  color: white;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid white;
+}
+
+.basketEach {
+  padding: 0.2rem 1rem;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 2px;
+  background: white;
+  margin-top: 0.5rem;
+}
+
+.basketLink {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.orderLink {
+  margin-right: 0.05rem;
+  border-radius: 2px;
+  font-weight: 200;
+  background: #5e8b7e;
+  font-size: 11px;
+  padding: 0.2rem;
+}

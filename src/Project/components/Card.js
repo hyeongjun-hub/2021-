@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = ({ cloth }) => {
+const Card = ({ onInsert, cloth }) => {
   const { id, title, content, price, img } = cloth;
+  const onClick = () => {
+    onInsert(cloth);
+  };
   return (
     <div className="bigCard">
       <Link
@@ -22,18 +25,23 @@ const Card = ({ cloth }) => {
             <img alt="" src={img} width="30%" />
             <div className="card__Content">
               <h6>{title}</h6>
-              <p>price: ${price}</p>
+              <p>${price}</p>
             </div>
           </div>
         </div>
       </Link>
       <div className="bigCard__button">
-        <button onClick={() => {}}>in to bucket</button>
+        <button onClick={onClick}>in to basket</button>
         <button>
           <Link
             to={{
               pathname: `/buy`,
-              state: { title: cloth.title, price: cloth.price, img: cloth.img },
+              state: {
+                title: cloth.title,
+                price: cloth.price,
+                img: cloth.img,
+                id: cloth.id,
+              },
             }}
           >
             buy
