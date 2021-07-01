@@ -31,7 +31,7 @@ const Home = (props) => {
             />
             <img
               alt=""
-              src="https://lh3.googleusercontent.com/proxy/RCjK_I3ynoeQi-fllGSwnT5Cj1Fn8AEkNWdu6m_boov2JLDcYN-gsNakilO7jmP0oBeh3d_FbtVsG6kgsaxl497gCJfufgD1"
+              src="https://littledeep.com/wp-content/uploads/2020/06/converse_logo_thumbnail.png"
             />
             <img
               alt=""
