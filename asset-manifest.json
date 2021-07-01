@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/2021-summer/static/css/main.ad0bf756.chunk.css",
+    "main.js": "/2021-summer/static/js/main.b1392b2d.chunk.js",
+    "main.js.map": "/2021-summer/static/js/main.b1392b2d.chunk.js.map",
+    "runtime-main.js": "/2021-summer/static/js/runtime-main.52afdecc.js",
+    "runtime-main.js.map": "/2021-summer/static/js/runtime-main.52afdecc.js.map",
+    "static/css/2.3ab4f688.chunk.css": "/2021-summer/static/css/2.3ab4f688.chunk.css",
+    "static/js/2.2d94e8ce.chunk.js": "/2021-summer/static/js/2.2d94e8ce.chunk.js",
+    "static/js/2.2d94e8ce.chunk.js.map": "/2021-summer/static/js/2.2d94e8ce.chunk.js.map",
+    "static/js/3.8ddb900e.chunk.js": "/2021-summer/static/js/3.8ddb900e.chunk.js",
+    "static/js/3.8ddb900e.chunk.js.map": "/2021-summer/static/js/3.8ddb900e.chunk.js.map",
+    "index.html": "/2021-summer/index.html",
+    "static/css/2.3ab4f688.chunk.css.map": "/2021-summer/static/css/2.3ab4f688.chunk.css.map",
+    "static/css/main.ad0bf756.chunk.css.map": "/2021-summer/static/css/main.ad0bf756.chunk.css.map",
+    "static/js/2.2d94e8ce.chunk.js.LICENSE.txt": "/2021-summer/static/js/2.2d94e8ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52afdecc.js",
+    "static/css/2.3ab4f688.chunk.css",
+    "static/js/2.2d94e8ce.chunk.js",
+    "static/css/main.ad0bf756.chunk.css",
+    "static/js/main.b1392b2d.chunk.js"
+  ]
+}
