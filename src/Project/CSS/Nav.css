@@ -1,0 +1,9 @@
+.nav {
+  display: flex;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav:first-child {
+  margin-right: 100px;
+}

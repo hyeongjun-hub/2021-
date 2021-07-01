@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Shop from './Project/src/ShoesShop';
+import Shoes from './Project/src/ShoesShop';
+import Top from './Project/src/TopShop';
 import Home from './Project/Home';
 import { HashRouter, Route } from 'react-router-dom';
 import Navigation from './Project/Navigation';
 import Detail from './Project/Detail';
+import './Project/CSS/Card.css';
 // import NumberBaseballFunc from './NumberBaseballFunc';
 // import LifleCycleSample from './LifleCycleSample';
 // import InterationSample from './InterationSample';
@@ -30,8 +32,9 @@ class App extends Component {
       <HashRouter>
         <Navigation />
         <Route path="/" exact={true} component={Home} />
-        <Route path="/shop" exact={true} component={Shop} />
-        <Route path="/shoe/:id" exact={true} component={Detail} />
+        <Route path="/shoes" exact={true} component={Shoes} />
+        <Route path="/top" exact={true} component={Top} />
+        <Route path="/clothes/:id" exact={true} component={Detail} />
         {/* <button onClick={this.myClick}>
         랜덤색상
       </button>

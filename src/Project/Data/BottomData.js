@@ -1,11 +1,11 @@
 const Data = [
   {
     id: 0,
-    title: 'Nike Dunk Low Retro White Black (2021)',
+    title: 'super star',
     content:
-      'The last in a long series of Dunk releases this January, the Nike Dunk Low Retro Black White is going to be a sneaker to add to your must-cop list this winter. In typical Dunk fashion, this iteration is constructed of premium, smooth leather; a rubber outsole; and dressed with perforations across the toe box for enhanced breathability.',
-    price: `219.0`,
-    img: 'https://images.stockx.com/360/Nike-Dunk-Low-Retro-White-Black-2021/Images/Nike-Dunk-Low-Retro-White-Black-2021/Lv2/img01.jpg?auto=compress&dpr=1&updated_at=1611084516&fit=clip&fm=webp&ixlib=react-9.1.5&q=90&w=1140',
+      'Originally made for basketball courts in the 70s. Celebrated by hip hop royalty in the 80s. The adidas Superstar shoe is now a lifestyle staple for streetwear enthusiasts. The world-famous shell toe feature remains, providing style and protection. Just like it did on the B-ball courts back in the day. Now, whether at a festival or walking in the street you can enjoy yourself without the fear of being stepped on.',
+    price: `85.00`,
+    img: 'https://image.adidas.co.kr/upload/prod/basic/source/EH0050-01-01.jpg',
   },
 
   {
@@ -13,7 +13,7 @@ const Data = [
     title: 'yeezy boost 350 V2',
     content:
       'The Yeezy 350 V2 continued its reign in 2020 with the release of the Sand Taupe colorway. The sneaker brings back adidas and Yeezy’s love for taupe colors that appear on many of their silhouettes. Drops such as the Yeezy 500 Blush, 350 V2 Flax, and 350 Oxford Tan all feature similar hues. This Yeezy adds to that lightly shaded collection.The Yeezy 350 V2 Sand Taupe features three colors on the sneaker’s upper. Its Primeknit construction is similar to the other 350 V2 colorways that have released. The midsole is filled with adidas’ signature BOOST cushioning to add comfort with every step, plus another set of laces are included with the sneaker to add versatility. The adidas Yeezy 350 V2 Sand Taupe released in December 2020 for $220.',
-    price: `250.0`,
+    price: `250.00`,
     img: 'https://images.stockx.com/360/adidas-Yeezy-Boost-350-V2-Eliada/Images/adidas-Yeezy-Boost-350-V2-Eliada/Lv2/img01.jpg?auto=compress&dpr=1&updated_at=1609768689&fit=clip&fm=webp&ixlib=react-9.1.5&q=90&w=720',
   },
 
@@ -62,24 +62,8 @@ const Data = [
     title: 'Mens Air Max IVO Trainers',
     content:
       'Inspired by early 90s running shoes from the Beaverton brand. the Air Max IVO trainers from Nike feature a soft foam midsole with a visible air unit on three sides to deliver optimal cushioning and response with every step. The upper includes airy mesh to help keep your feet feeling cool, while the rubber waffle outsole adds heritage styling as well as durable traction and the Nike Swoosh branding adds the finishing touch.',
-    price: `127.5`,
+    price: `127.50`,
     img: 'https://images.sportsdirect.com/images/products/12100501_l.jpg',
-  },
-  {
-    id: 8,
-    title: 'Star 70s Hi Comme des Garcons PLAY Black',
-    content:
-      'Japanese designer Rei Kawakubo is one of the most prolific fashion designers of all time. Aside from her Comme des Garçons collections, she has had numerous sneaker collaborations over the years. One of the most outstanding of these collaborations involves her different iterations of work modifying and styling up the Converse Chuck Taylor with her sub-label Comme des Garçons PLAY. Kawakubo’s first iteration of his Converse Chuck Taylors came about in 2009 when she modified the original by stripping back its contrast stitching. Six years later, in 2015, she took the All Star Chuck 70s as her template and created a shoe so beloved that it has been re-released every year since.',
-    price: `128.0`,
-    img: 'https://images.stockx.com/360/Converse-Chuck-Taylor-All-Star-70s-Hi-Comme-des-Garcons-PLAY-Black/Images/Converse-Chuck-Taylor-All-Star-70s-Hi-Comme-des-Garcons-PLAY-Black/Lv2/img01.jpg?auto=compress&dpr=1&updated_at=1607647392&fit=clip&fm=webp&ixlib=react-9.1.5&q=90&w=720',
-  },
-  {
-    id: 9,
-    title: 'Converse Run Star Hike Hi Black White Gum',
-    content:
-      'A chunky platform and jagged rubber sole put an unexpected twist on your everyday Chucks. Details like a canvas build, rubber toe cap and Chuck Taylor ankle patch stay true to the original, while a molded platform, two-tone outsole and rounded heel give off futuristic vibes.',
-    price: `110.0`,
-    img: 'https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw9d0ff752/images/a_107/166800C_A_107X1.jpg?sw=964',
   },
 ];
 export default Data;

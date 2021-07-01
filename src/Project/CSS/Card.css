@@ -1,0 +1,50 @@
+.bigContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #a4b0be;
+  height: 100%;
+  width: 780px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bigCard {
+  margin: 10px;
+}
+
+.bigCard a:link,
+.bigCard a:visited,
+.bigCard a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.bigCard__button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.card {
+  border-radius: 20px 0 0 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #2f3542;
+  width: 350px;
+  height: 150px;
+}
+
+.card img {
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.card__Content {
+  text-align: right;
+}
