@@ -1,27 +1,22 @@
 .bigContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .container {
+  padding: 2rem;
   border-radius: 10px;
   margin: 10px;
-  background-color: #a4b0be;
+  background-color: #a7c4bc;
   height: 100%;
-  width: 780px;
+  width: 95vw;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .bigCard {
   margin: 10px;
-}
-
-.bigCard a:link,
-.bigCard a:visited,
-.bigCard a:hover {
-  color: white;
-  text-decoration: none;
 }
 
 .bigCard__button {
@@ -30,12 +25,16 @@
   justify-content: flex-end;
 }
 
-.card {
-  border-radius: 20px 0 0 0;
+.bigCard__button button {
+  border: 0.2px solid #a7c4bc;
+  background-color: #5e8b7e;
+  color: white;
+  font-size: 11px;
+}
+
+.card__white {
   padding: 10px;
   display: flex;
-  justify-content: space-between;
-  background: #2f3542;
   width: 350px;
   height: 150px;
 }
@@ -46,5 +45,10 @@
 }
 
 .card__Content {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
   text-align: right;
 }

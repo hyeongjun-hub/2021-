@@ -1,0 +1,49 @@
+.Home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home__main {
+  border-radius: 20px;
+  width: 60%;
+  height: 70%;
+  background-color: black;
+}
+
+.Home__main-title {
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+.Home__main-title h1 {
+  font-weight: 600;
+}
+
+.Home__main-title p {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: end;
+}
+
+.Home__main-content {
+  padding: 10%;
+  width: 100%;
+  height: 70%;
+}
+
+.Home__main-content__logo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 7rem;
+}
+
+.Home__main-content__logo img {
+  background-color: white;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 6px;
+  margin: 1rem;
+}

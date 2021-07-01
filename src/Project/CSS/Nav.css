@@ -1,9 +1,16 @@
 .nav {
   display: flex;
+  justify-content: space-evenly;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #2f5d62;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.nav:first-child {
-  margin-right: 100px;
+.nav a:link,
+.nav a:visited,
+.nav a:hover {
+  color: white;
+  text-decoration: none;
 }

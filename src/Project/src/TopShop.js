@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Top from '../Data/TopData';
-import Card from '../Card';
+import Card from '../components/Card';
 
-const Shop = () => {
+const TopShop = () => {
   // eslint-disable-next-line no-unused-vars
   const [cloth, clothState] = useState(Top);
   return (
@@ -16,4 +16,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default TopShop;

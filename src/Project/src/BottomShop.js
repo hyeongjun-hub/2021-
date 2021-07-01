@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Shoes from '../Data/ShoesData';
+import Bottom from '../Data/BottomData';
 import Card from '../components/Card';
 
-const ShoesShop = () => {
+const BottomShop = () => {
   // eslint-disable-next-line no-unused-vars
-  const [cloth, clothState] = useState(Shoes);
+  const [cloth, clothState] = useState(Bottom);
   return (
     <div className="bigContainer">
       <div className="container">
@@ -16,4 +16,4 @@ const ShoesShop = () => {
   );
 };
 
-export default ShoesShop;
+export default BottomShop;
