@@ -81,5 +81,23 @@ const Data = [
     price: `110.0`,
     img: 'https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw9d0ff752/images/a_107/166800C_A_107X1.jpg?sw=964',
   },
+  {
+    id: 38,
+    title: 'ADILETTE CORK SLIDES',
+    content: `ADILETTE CORK SLIDES
+    A SUMMER SLIDE WITH A 3-STRIPES BANDAGE AND A CORK MIDSOLE.
+    In the early '70s, adidas created "shower shoes" for Germany's national football team to wear in communal locker rooms. The resulting slide, known as the adilette, became an international best-seller, worn by college students and celebrities alike. These women's sandals update the original with a natural, sustainable and ultra-comfy cork-wrapped midsole. A textured leather bandage flashes embossed 3-Stripes and the slightly see-through rubber outsole adds to the distinctive look.`,
+    price: '80.0',
+    img: 'https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/baafebd778244bdb83a0ad0900caf010_9366/adilette_Cork_Slides_Black_BA7211_01_standard.jpg',
+  },
+  {
+    id: 39,
+    title: 'ADILETTE CLOGS',
+    content: `ADILETTE CLOGS
+    SLIP-ON CLOGS FOR EVERYDAY COMFORT.
+    Based on the iconic adidas slide, these clogs are as functional as they are comfortable. Whether you're walking to the gym or pool for an early-morning workout or just want to keep the slouchy-casual vibe going all through your day, slip your feet into the contoured footbeds and head for the door.`,
+    price: '45.0',
+    img: 'https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f5358931997143319fd0ad1800a1e937_9366/Adilette_Clogs_Blue_GZ5314_01_standard.jpg',
+  },
 ];
 export default Data;
