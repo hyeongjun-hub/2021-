@@ -20,8 +20,7 @@ const BottomShop = () => {
     },
     [basket],
   );
-  // eslint-disable-next-line no-unused-vars
-  const [cloth, clothState] = useState(Bottom);
+  const [cloth] = useState(Bottom);
   return (
     <div className="bigContainer">
       <div className="container">
